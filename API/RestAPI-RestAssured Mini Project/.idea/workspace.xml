@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d713fca-998b-4c2b-855e-941e0eb8fde0" name="Changes" comment="API Automation" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="belajar1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nachrstn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="33640164-0927-4dc9-8aa2-8da8b295f123" />
+        <option name="url" value="https://github.com/nachrstn/AltaMiniProject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2VkC7QL9abioCYVpNmbhhztBuyb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/.Christina/KULIAH/MSIB/Capstone 1/Capstone QE/API/ReproHealth API",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured Mini Project\src\test\java\starter\altashop\authentication\invalid" />
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured Mini Project\src\test\java\starter\altashop\productcategories\invalid" />
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured Mini Project\src\test\java\starter\altashop\orders\invalid" />
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured Mini Project\src\test\java\starter\altashop\products\invalidmethod" />
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured Mini Project\src\test\java\starter\altashop\products" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\.Christina\KULIAH\MSIB\Java Projects\RestAPI-RestAssured-Prkt\.github\workflows" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="starter.altashop.products.negative" />
+      <recent name="starter.altashop.orders.negative" />
+      <recent name="starter.altashop.authentication.negative" />
+      <recent name="starter.altashop.productcategories.negative" />
+      <recent name="starter.altashop.authentication.positive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: POST - Create a new order invalid payload">
+    <configuration name="Scenario: POST - Assign a product rating invalid endpoint" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api/product.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ReproHealth API" />
+      <option name="NAME_FILTER" value="^POST \- Assign a product rating invalid endpoint$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^POST \- Assign a product rating invalid endpoint$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST - Assign a product rating invalid endpoint" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: POST - Assign a product rating invalid method" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api/product.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="net.serenitybdd.cucumber.cli.Main" />
+      <module name="ReproHealth API" />
+      <option name="NAME_FILTER" value="^POST \- Assign a product rating invalid method$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^POST \- Assign a product rating invalid method$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST - Assign a product rating invalid method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: POST - Create a new order invalid payload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api/orders.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="net.serenitybdd.cucumber.cli.Main" />
+      <module name="ReproHealth API" />
+      <option name="NAME_FILTER" value="^POST \- Create a new order invalid payload$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^POST \- Create a new order invalid payload$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST - Create a new order invalid payload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: POST - Login invalid payload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api/authentication.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ReproHealth API" />
+      <option name="NAME_FILTER" value="^POST \- Login invalid payload$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^POST \- Login invalid payload$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST - Login invalid payload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: POST - Register invalid payload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/api/authentication.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors starter.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ReproHealth API" />
+      <option name="NAME_FILTER" value="^POST \- Register invalid payload$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^POST \- Register invalid payload$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST - Register invalid payload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit">
+      <module name="ReproHealth API" />
+      <option name="PACKAGE_NAME" value="starter" />
+      <option name="MAIN_CLASS_NAME" value="starter.CucumberTestSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RestAPI-RestAssured Mini Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RestAPI-RestAssured Mini Project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: POST - Assign a product rating invalid endpoint" />
+      <item itemvalue="Cucumber Java.Scenario: POST - Assign a product rating invalid method" />
+      <item itemvalue="Cucumber Java.Scenario: POST - Create a new order invalid payload" />
+      <item itemvalue="Cucumber Java.Scenario: POST - Login invalid payload" />
+      <item itemvalue="Cucumber Java.Scenario: POST - Register invalid payload" />
+      <item itemvalue="JUnit.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: POST - Create a new order invalid payload" />
+        <item itemvalue="Cucumber Java.Scenario: POST - Register invalid payload" />
+        <item itemvalue="Cucumber Java.Scenario: POST - Login invalid payload" />
+        <item itemvalue="Cucumber Java.Scenario: POST - Assign a product rating invalid method" />
+        <item itemvalue="Cucumber Java.Scenario: POST - Assign a product rating invalid endpoint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d713fca-998b-4c2b-855e-941e0eb8fde0" name="Changes" comment="" />
+      <created>1695370526097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695370526097</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ubah name test ApI menjadi IV">
+      <option name="closed" value="true" />
+      <created>1696595487468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696595487468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1697184148423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697184148424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <option name="closed" value="true" />
+      <created>1697185040096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697185040096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <option name="closed" value="true" />
+      <created>1697185388178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697185388178</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update ci.yml">
+      <option name="closed" value="true" />
+      <created>1697185530132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697185530132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8 test case Rest API">
+      <option name="closed" value="true" />
+      <created>1697187321749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697187321749</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9 test case Rest API">
+      <option name="closed" value="true" />
+      <created>1697189727351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697189727351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1698293545337</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698293545337</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1698295685336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698295685336</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1698297322796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698297322796</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update value post">
+      <option name="closed" value="true" />
+      <created>1698298121688</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698298121688</updated>
+    </task>
+    <task id="LOCAL-00012" summary="API Automation">
+      <option name="closed" value="true" />
+      <created>1698825222878</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698825222878</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ubah name test ApI menjadi IV" />
+    <MESSAGE value="test" />
+    <MESSAGE value="update ci.yml" />
+    <MESSAGE value="8 test case Rest API" />
+    <MESSAGE value="9 test case Rest API" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update value post" />
+    <MESSAGE value="API Automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Automation" />
+  </component>
+</project>
