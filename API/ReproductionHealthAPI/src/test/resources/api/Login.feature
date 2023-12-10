@@ -24,6 +24,25 @@ Feature: Authentication
     Then I receive response code 400 for Login invalid payload
 
 
+  Scenario: PUT - PUT change password success
+    Given I set PUT endpoint change password
+    When I send PUT HTTP request change password
+    Then I receive response code 200 change password
+
+  Scenario: PUT - PUT change password invalid endpoint
+    Given I set PUT change password invalid endpoint
+    When I send PUT HTTP request change password invalid endpoint
+    Then I receive response code 404 change password invalid endpoint
+
+  Scenario: PUT - PUT change password invalid method
+    Given I set PUT change password invalid method
+    When I send PUT HTTP request change password invalid method
+    Then I receive response code 405 change password invalid method
+
+  Scenario: PUT - PUT change password invalid json payload
+    Given I set PUT change password invalid json payload
+    When I send PUT HTTP request change password invalid json payload
+    Then I receive response code 400 change password invalid json payload
 
 
 

@@ -6,7 +6,7 @@ Feature: Register
   Scenario: POST - Successful Register
     Given I set POST endpoints Register
     When I send POST HTTP request Register
-    Then I receive response code 200 Register
+    Then I receive response code 201 Register
     And I receive valid data for Register
 
   Scenario: POST - Register invalid endpoint

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>n - Registration with the symbol in the first letter of the name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a9d93a2-b164-4ac9-9b60-0d4ff0497f7e</testCaseGuid>
+</TestCaseEntity>

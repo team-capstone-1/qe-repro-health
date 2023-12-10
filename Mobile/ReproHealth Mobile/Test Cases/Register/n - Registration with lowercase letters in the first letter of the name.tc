@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>n - Registration with lowercase letters in the first letter of the name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0eda1a7c-d9b2-40a0-8b11-bd30100b2a03</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pst - Login by not check the Ingatkan Saya checkbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a625b3b5-c4b0-4c25-ac87-2d2195c701b5</testCaseGuid>
+</TestCaseEntity>

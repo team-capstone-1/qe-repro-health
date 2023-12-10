@@ -17,10 +17,11 @@ public class PostLogin {
     @Step("I send POST HTTP request Login")
     public void sendPostHttpRequestLoginEndpoint(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "davin2@gmail.com");
+        requestBody.put("email", "davin11@gmail.com");
         requestBody.put("password", "123456");
 
         SerenityRest.given()
+                .header("Content-Type", "application/json")
                 .body(requestBody.toJSONString())
                 .post(setPostLoginEndpoint());
     }

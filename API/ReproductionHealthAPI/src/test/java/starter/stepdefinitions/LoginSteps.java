@@ -10,6 +10,8 @@ import starter.user.login.*;
 public class LoginSteps {
     @Steps
     PostLogin PostLogin;
+    @Steps
+    PutChangePassword PutChangePassword;
 
 
 
@@ -25,5 +27,20 @@ public class LoginSteps {
     public void responseCode200LoginEndpoint(){
         PostLogin.responseCode200LoginEndpoint();
     }
+
+
+    @Given("I set PUT endpoint change password")
+    public void setPutEndpointChangePassword(){
+        PutChangePassword.setPutEndpointChangePassword();
+    }
+    @When("I send PUT HTTP request change password")
+    public void sendPutRequestChangePassword(){
+        PutChangePassword.sendPutRequestChangePassword();
+    }
+    @Then("I receive response code 200 change password")
+    public void resCode200PutChangePassword(){
+        PutChangePassword.resCode200PutChangePassword();
+    }
+
 
 }

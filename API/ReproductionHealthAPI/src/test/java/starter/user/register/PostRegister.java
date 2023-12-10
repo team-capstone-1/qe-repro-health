@@ -18,22 +18,24 @@ public class PostRegister {
     @Step("I send POST HTTP request Register")
     public void sendPostHttpRequestRegisterEndpoint(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "new1@gmail.com");
+        requestBody.put("email", "new3@gmail.com");
+        requestBody.put("name", "new");
         requestBody.put("password", "123123");
-//        requestBody.put("fullname", "new116");
+
 
         SerenityRest.given()
+                .header("Content-Type", "application/json")
                 .body(requestBody.toJSONString())
                 .post(setPostRegisterEndpoint());
     }
 
-    @Step("I receive response code 200 Register")
-    public void responseCode200RegisterEndpoint(){
-        restAssuredThat(response -> response.statusCode(200));
+    @Step("I receive response code 201 Register")
+    public void responseCode201RegisterEndpoint(){
+        restAssuredThat(response -> response.statusCode(201));
     }
 
     @Step("I receive valid data for Register")
     public void receiveValidDataForRegister(){
-        restAssuredThat(response -> response.body("response.email", equalTo("new1@gmail.com")));
+        restAssuredThat(response -> response.body("response.name", equalTo("new")));
     }
 }

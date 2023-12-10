@@ -19,9 +19,9 @@ public class RegisterSteps {
     public void sendPostHttpRequestRegisterEndpoint(){
         PostRegister.sendPostHttpRequestRegisterEndpoint();
     }
-    @Then("I receive response code 200 Register")
-    public void responseCode200RegisterEndpoint(){
-        PostRegister.responseCode200RegisterEndpoint();
+    @Then("I receive response code 201 Register")
+    public void responseCode201RegisterEndpoint(){
+        PostRegister.responseCode201RegisterEndpoint();
     }
     @And("I receive valid data for Register")
     public void receiveValidDataForRegister(){

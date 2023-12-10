@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>detailArticle</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.View</value>
+      <webElementGuid>e295a9e9-e02d-48b4-812a-a34cbcc5f3e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>74128f17-279a-4980-9f39-12773543e913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>com.example.reprohealth_app</value>
+      <webElementGuid>ec151ab9-921e-4732-a540-13cf7fa6d4a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Manfaat Madu untuk Kesehatan Reproduksi
+Reproduksi
+Makanan Sehat
+dr. Farhan M
+Diunggah pada 18 Agustus 2023 pukul 18.00 WIB
+123
+123
+123
+ Dengan nutrisi yang komprehensif, madu memiliki potensi memberikan sejumlah manfaat signifikan untuk kesehatan reproduksi, baik pada pria maupun wanita. Manfaatnya meliputi peningkatan kesuburan dan bantuan dalam mengatasi berbagai masalah reproduksi umum yang sering dihadapi oleh wanita.
+
+Selain rasanya yang manis, madu juga mengandung nutrisi yang lengkap, seperti antioksidan, flavonoid, asam fenolat, asam amino, enzim, vitamin, dan mineral. Ternyata, manfaat madu tidak hanya terbatas pada kesehatan umum, tetapi juga berperan penting dalam menjaga kesehatan reproduksi baik pada pria maupun wanita.
+
+Madu telah menjadi bagian penting dalam terapi kesuburan dan perencanaan kehamilan selama waktu yang lama. Manfaatnya dapat dirasakan oleh baik pria maupun wanita.
+Bagi pria, madu bahkan dapat berperan dalam mengatasi masalah impotensi. Selain itu, madu juga dapat digunakan untuk meredakan disfungsi ereksi pada pria.
+
+Meskipun madu tidak dapat menyembuhkan kanker, mengkonsumsinya secara rutin dapat membantu mencegah munculnya dan perkembangan sel kanker pada organ reproduksi. Madu memiliki zat antikanker dan antitumor seperti flavonoid, asam fenolat, asam amino, protein, dan enzim.
+
+Mengkonsumsi madu secara rutin juga dapat membantu menyeimbangkan kadar testosteron dalam tubuh, yang pada gilirannya akan meningkatkan kesehatan reproduksi, mengurangi perubahan suasana hati, dan menjaga keseimbangan hormon. 
+Referensi
+Molecules. Diakses pada 2023. Protective Roles of Honey in Reproductive Health: A Review. Times of India. Diakses pada 2023. Why A Spoonful Of Honey Daily Is A Must Have For Women
+Komentar (123)</value>
+      <webElementGuid>189f91c6-ecbb-4fe1-bf7a-f39bc1fecdd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checkable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e8433898-2066-4675-aa9c-67d7d8317e61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8067d21f-75ba-4072-8ed6-30b6a72df0a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clickable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c9cbd19b-3a21-41f4-85d3-3507ad259600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enabled</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>23d77312-c627-4781-998d-f59777f0662e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1c8027e9-2895-4663-887e-500b3a2ba607</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focused</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4598f17b-cb61-425c-80b8-1634eefeabc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>scrollable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>258da2e3-8965-47f6-85c4-fa7ea773c867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>long-clickable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3dafc76a-9ca4-47cf-81d8-3bfdcae98cb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>password</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1c04ef45-1830-4177-a556-2b5142788dfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>9f843080-37e8-4228-8f80-fba2f9023dec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>c135f387-0879-48b6-827b-7f8bf5b27fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>72</value>
+      <webElementGuid>d8a08960-35f2-461d-a8a0-f4f128460637</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>720</value>
+      <webElementGuid>002086ba-58c2-4509-8e06-0de10099314c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1400</value>
+      <webElementGuid>aad9ef61-b2ec-48ff-8484-cb8edbfc8518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>bounds</name>
+      <type>Main</type>
+      <value>[0,72][720,1472]</value>
+      <webElementGuid>74b71cbc-bf80-430c-9036-1a9c17ec671c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>36f9fced-90d2-400c-a1aa-b17aa29b1d1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>87a03ec0-fb73-4ff6-976c-dbfaa2d05fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>46a274bf-977e-4ad8-9ccd-f66f22826eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
+      <webElementGuid>3e25fb12-5511-4fee-9626-bdb21b92f710</webElementGuid>
+   </webElementProperties>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</MobileElementEntity>
