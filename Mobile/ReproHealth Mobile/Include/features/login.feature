@@ -41,13 +41,13 @@ Feature: Login
     When input empty field email & valid password
     And click the remember me checkbox
     And click login button
-    Then verify success login
+    Then shows an alert that email or password invalid
 
   Scenario: Login with empty field password
     When input valid email & empty field password
     And click the remember me checkbox
     And click login button
-    Then verify success login
+    Then shows an alert that email or password invalid
 
   Scenario: Valid Login with Uppercase Letters in Email
     When input valid email with uppercase letters & valid password
@@ -59,19 +59,19 @@ Feature: Login
     When input space on email & valid password
     And click the remember me checkbox
     And click login button
-    Then verify success login
+    Then shows an alert that email or password invalid
 
   Scenario: Login with only filled space on Password
     When input valid email & space on password
     And click the remember me checkbox
     And click login button
-    Then verify success login
+    Then shows an alert that email or password invalid
 
   Scenario: Login with invalid email format (no domain)
     When input invalid email format & valid password
     And click the remember me checkbox
     And click login button
-    Then verify success login
+    Then shows an alert that email or password invalid
     
     
     

@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "B9BDF3D712460307BE0A6C000E15394C",
+  "keywordFileContentHash": "E2D4C4D58CEBF1760CFC1121CE4DA584",
   "keywordClasses": [
     {
-      "name": "loginSteps",
+      "name": "logoutSteps",
       "keywordMethods": []
     }
   ],

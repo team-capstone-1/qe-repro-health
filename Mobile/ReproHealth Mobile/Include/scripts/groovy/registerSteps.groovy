@@ -51,174 +51,175 @@ class registerSteps {
 	def openReprohealthApp() {
 		Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth2.apk', true)
 	}
-	
+
 	@And("click the skip button")
 	def clickTheSkipButton() {
 		Mobile.tap(findTestObject('Login/btnLewati'), 0)
 	}
-	
+
 	@And("click the sign up button option")
 	def clickTheSignUpButtonOption() {
 		Mobile.tap(findTestObject('SignUp/btnSignUpAccount'), 0)
 	}
-	
+
 	@When("input name")
 	def inputNameEmailPasswordAndConfirmPassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), 'Aaa', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), 'Aaa', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input email")
 	def inputEmail() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'www2@gmail.com', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'www2@gmail.com', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input password")
 	def inputPassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'Www111222', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'Www111222', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input confirm password")
 	def inputConfirmPassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'Www111222', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'Www111222', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("click sign up button")
 	def clickSignUpButton() {
 		Mobile.tap(findTestObject('Object Repository/SignUp/btnSignUp'), 0)
 	}
-	
+
 	@When("verify success sign up")
 	def verifySuccessSignUp() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/msgSuccessSignUp'), 0)
 	}
-	
+
 	@When("click sign up button")
 	def clickSignUpButton1() {
 		Mobile.tap(findTestObject('Object Repository/SignUp/btnSignUp'), 0)
 	}
-	
+
 	@And("input symbol in the first letter of name")
 	def inputSymbolInFirstLetterOfName() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), '@aa1', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), '@aa1', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input lowercase in first letter of name")
 	def inputLowercaseInFirstLetterOfName() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), 'aaa1', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldNameOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldNameOnSignUp'), 'aaa1', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input existing email")
 	def inputExistingEmail() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa@gmail.com', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa@gmail.com', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input invalid email domain")
 	def inputInvalidEmailDomain() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa@example.com', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa@example.com', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input uppercase email")
 	def inputUppercaseEmail() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'EeE1@gmail.com', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'EeE1@gmail.com', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input email without domain")
 	def inputEmailWithoutDomain() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldEmailOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldEmailOnSignUp'), 'aaa', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input lowercase password")
 	def inputLowercasePassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'aaa111222', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'aaa111222', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input lowercase confirm password")
 	def inputLowercaseConfirmPassword() {
 		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
-		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'aaa111222', 0)		
+		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'aaa111222', 0)
 		Mobile.hideKeyboard()
-		
 	}
-	
+
 	@And("input mismatched confim password")
 	def inputMismatchedPassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'Aaa111223', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'Aaa111223', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input empty password")
 	def inputEmptyPassword() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), '', 0)		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), '', 0)
 		Mobile.hideKeyboard()
-	}
-	
-	@And("input password less than 8 characters")
-	def inputPasswordLessThan8Char() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'weak', 0)		
-		Mobile.hideKeyboard()
-	}
-	
-	@And("input confirm password less than 8 characters")
-	def inputConfirmPasswordLessThan8Char() {
-		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)		
-		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'weak', 0)		
-		Mobile.hideKeyboard()
-	}
-	
-	@Then("shows an alert on name")
-	def showsAlertOnName() {
-		Mobile.verifyElementVisible(findTestObject('SignUp/warningNameOnSignUp'), 0)
-	}
-	
-	@Then("shows an alert on email")
-	def showsAlertOnEmail() {
-		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailOnSignUp'), 0)
-	}
-	
-	@Then("shows an alert that the email is existing")
-	def showsAlertThatEmailIsExisting() {
-		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailExisting'), 0)
-	}
-	
-	
-	@Then("shows an alert on password")
-	def showsAlertOnPassword() {
-		
-	}
-	
-	@Then("shows an alert on confim password")
-	def showsAlertOnConfimPassword() {
-		
 	}
 	
 	@And("input empty confirm password")
 	def inputEmptyConfirmPassword() {
-		
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), '', 0)
+		Mobile.hideKeyboard()
 	}
-	
+
+	@And("input password less than 8 characters")
+	def inputPasswordLessThan8Char() {
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPasswordOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), 'weak', 0)
+		Mobile.hideKeyboard()
+	}
+
+	@And("input confirm password less than 8 characters")
+	def inputConfirmPasswordLessThan8Char() {
+		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
+		Mobile.setText(findTestObject('SignUp/fieldPassConfirmOnSignUp'), 'weak', 0)
+		Mobile.hideKeyboard()
+	}
+
+	@Then("shows an alert on name")
+	def showsAlertOnName() {
+		Mobile.verifyElementVisible(findTestObject('SignUp/warningNameOnSignUp'), 0)
+	}
+
+	@Then("shows an alert on email")
+	def showsAlertOnEmail() {
+		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailOnSignUp'), 0)
+	}
+
+	@Then("shows an alert that the email is existing")
+	def showsAlertThatEmailIsExisting() {
+		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailExisting'), 0)
+	}
+
+	@Then("shows an alert on password")
+	def showsAlertOnPassword() {
+		Mobile.verifyElementVisible(findTestObject('SignUp/warningPasswordOnSignUp'), 0)
+	}
+
+	@Then("shows an alert on confim password")
+	def showsAlertOnConfimPassword() {
+		Mobile.verifyElementVisible(findTestObject('SignUp/warningConfirmPasswordOnSignUp'), 0)
+	}
+
+
 }

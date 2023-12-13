@@ -141,4 +141,22 @@ class loginSteps {
 		Mobile.setText(findTestObject('Login/fieldPassword1'), 'Aaa111222', 0)
 		Mobile.hideKeyboard()
 	}
+
+	@Then("shows an alert that email or password invalid")
+	def showsAlertEmailOrPassInvalid() {
+		Mobile.verifyElementVisible(findTestObject('Login/msgLoginFailed'), 0)
+	}
+
+	@And("login with registered account")
+	def loginWithRegisteredAccount() {
+		Mobile.tap(findTestObject('Login/fieldEmail'), 0)
+		Mobile.setText(findTestObject('Login/fieldEmail1'), 'aaa@gmail.com', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Login/fieldPassword'), 0)
+		Mobile.setText(findTestObject('Login/fieldPassword1'), 'Aaa111222', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Object Repository/Login/btnLogin'), 0)
+		Mobile.tap(findTestObject('Login/btnAktifkanLokasi'), 0)		
+		Mobile.tap(findTestObject('Login/btnSaatApkDigunakan'), 0)
+	}
 }
