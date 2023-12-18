@@ -25,3 +25,7 @@ https://docs.google.com/document/d/1vqGomWC44CsBxvELZyLFYcJqrOmwwBfA/edit?usp=dr
 -Specifically for Tracking management tools, you can visit the link below
 
 https://trello.com/b/g6IZhItq/qe-section
+
+- Specifically for PPT QA, you can visit the link below
+
+https://docs.google.com/presentation/d/1XSFXf9X9Ygl_duGQyIee6CxFnHwmeUzj/edit?usp=drive_link&ouid=100270215814298419637&rtpof=true&sd=true
