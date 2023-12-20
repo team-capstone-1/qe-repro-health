@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>p - make appointments with manual transfer and direct payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a442cf17-595c-4084-b10d-14bd1e8a98a3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>p - create new forum not anonymous</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79ced6b9-80ff-4d15-9b4c-44e0b64ea1ee</testCaseGuid>
+</TestCaseEntity>

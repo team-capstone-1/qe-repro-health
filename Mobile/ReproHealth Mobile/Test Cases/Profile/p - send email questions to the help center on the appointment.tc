@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>p - send email questions to the help center on the appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef903681-ed8c-4beb-baba-7513ed0c5a97</testCaseGuid>
+</TestCaseEntity>

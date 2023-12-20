@@ -51,22 +51,23 @@ class logoutSteps {
 	def clickBottomNavbarProfileForLogout() {
 		Mobile.tap(findTestObject('Profile/btnNavbarProfile'), 0)
 	}
-	
+
 	@And("click Logout")
 	def clickLogout() {
 		Mobile.tap(findTestObject('Logout/btnLogout'), 0)
 	}
-	
+
 	@And("click yes")
 	def clickYes() {
 		Mobile.tap(findTestObject('Logout/btnLogoutYes'), 0)
 	}
-	
+
 	@Then("verify successful logout and go to login page")
 	def verifySuccessfulLogoutAndGoToLoginPage() {
 		Mobile.verifyElementVisible(findTestObject('Login/fieldEmail'), 0)
+		Mobile.closeApplication()
 	}
-	
+
 	@And("click no")
 	def clickNo() {
 		Mobile.tap(findTestObject('Logout/btnLogoutNo'), 0)
@@ -76,5 +77,6 @@ class logoutSteps {
 	@Then("shows an alert that logout failed")
 	def showsAnAlertThatLogoutFailed() {
 		Mobile.verifyElementVisible(findTestObject('Profile/btnNavbarProfile'), 0)
+		Mobile.closeApplication()
 	}
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>n - add family member profiles with empty cell phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bc3c939-66cc-4889-b893-919f44a31711</testCaseGuid>
+</TestCaseEntity>

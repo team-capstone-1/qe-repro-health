@@ -49,7 +49,7 @@ class loginSteps {
 	 */
 	@Given("open the Reprohealth application")
 	def openTheReprohealthApp() {
-		Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth2.apk', true)
+		Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth.apk', true)
 	}
 
 	@And("click skip button")
@@ -84,7 +84,7 @@ class loginSteps {
 
 	@Then("verify success login")
 	def verifySuccessLogin() {
-		Mobile.verifyElementVisible(findTestObject('Login/msgPermissionLocation'), 0)
+		Mobile.verifyElementVisible(findTestObject('Profile/btnNavbarProfile'), 0)
 		Mobile.closeApplication()
 	}
 
@@ -145,18 +145,114 @@ class loginSteps {
 	@Then("shows an alert that email or password invalid")
 	def showsAlertEmailOrPassInvalid() {
 		Mobile.verifyElementVisible(findTestObject('Login/msgLoginFailed'), 0)
+		Mobile.closeApplication()
 	}
 
 	@And("login with registered account")
 	def loginWithRegisteredAccount() {
 		Mobile.tap(findTestObject('Login/fieldEmail'), 0)
-		Mobile.setText(findTestObject('Login/fieldEmail1'), 'aaa@gmail.com', 0)
+		Mobile.setText(findTestObject('Login/fieldEmail1'), 'muhammadalbert16@gmail.com', 0)
 		Mobile.hideKeyboard()
 		Mobile.tap(findTestObject('Login/fieldPassword'), 0)
-		Mobile.setText(findTestObject('Login/fieldPassword1'), 'Aaa111222', 0)
+		Mobile.setText(findTestObject('Login/fieldPassword1'), 'Cobaaja123', 0)
 		Mobile.hideKeyboard()
 		Mobile.tap(findTestObject('Object Repository/Login/btnLogin'), 0)
-		Mobile.tap(findTestObject('Login/btnAktifkanLokasi'), 0)		
-		Mobile.tap(findTestObject('Login/btnSaatApkDigunakan'), 0)
+	}
+
+
+	@When("Click Lupa kata Sandi")
+	def ClickForgotPass() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnLupaKataSandi'), 0)
+	}
+
+	@And("Input Email with an unregistered email")
+	def InputEmailUnregEmail() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 0)
+		Mobile.setText(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 'jokoo@gmail.com', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnKirim1st'), 0)
+	}
+
+	@Then("warning email not registered")
+	def warningEmailNotRegistered() {
+		Mobile.verifyElementVisible(findTestObject('ForgotPass/msgEmailNotRegistered'), 0)
+		Mobile.closeApplication()
+	}
+
+	@And("Not filling the email")
+	def NotfillEmail() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnKirim1st'), 0)
+	}
+
+
+	@And("Input Email only with space on email")
+	def InputEmailWithSpace() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 0)
+		Mobile.setText(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), ' ', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnKirim1st'), 0)
+	}
+
+	@And("Input Email with invalid format")
+	def InputEmailInvalidFormat() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 0)
+		Mobile.setText(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 'mariachristinahartono@example.com', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnKirim1st'), 0)
+	}
+
+	@And("Not fill OTP")
+	def NotFillOTP() {
+		Mobile.tap(findTestObject('ForgotPass/btnKirim2nd'), 0)
+	}
+
+	@Then("warning on OTP")
+	def warningOnOTP() {
+		Mobile.verifyElementVisible(findTestObject('ForgotPass/msgValidateWrongOTP'), 0)
+		Mobile.closeApplication()
+	}
+
+	@And("input wrong OTP")
+	def inputWrongOTP() {
+		Mobile.tap(findTestObject('ForgotPass/fieldOTP1st'), 0)
+		Mobile.setText(findTestObject('ForgotPass/fieldOTP1st'), '890122', 0)
+		Mobile.tap(findTestObject('ForgotPass/btnKirim2nd'), 0)
+	}
+
+	@And("Input valid Email")
+	def InputValidEmail() {
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 0)
+		Mobile.setText(findTestObject('Object Repository/ForgotPass/fieldEmailForgotPass'), 'mariachristinahartono@gmail.com', 0)
+		Mobile.hideKeyboard()
+		Mobile.tap(findTestObject('Object Repository/ForgotPass/btnKirim1st'), 0)
+	}
+
+	@And("click resend button")
+	def clickResendButton() {
+		Mobile.tap(findTestObject('ForgotPass/btnResendOTP'), 0)
+	}
+
+	@Then("success resend OTP to email")
+	def successResendOTP() {
+		Mobile.verifyElementVisible(findTestObject('ForgotPass/btnKirim2nd'), 0)
+		Mobile.closeApplication()
+	}
+
+	@Then("warning on email field")
+	def warningOnEmailField() {
+		Mobile.verifyElementVisible(findTestObject('ForgotPass/verifyEmailNotValidForgotPass'), 0)
+		Mobile.closeApplication()
+	}
+
+	@Then("shows alert on email")
+	def showsAlertonEmail() {
+		Mobile.verifyElementVisible(findTestObject('Login/warningEmailNotValid'), 0)
+		Mobile.closeApplication()
+	}
+
+	@Then("shows alert on password")
+	def showsAlertOnPassword() {
+		Mobile.verifyElementVisible(findTestObject('Login/warningPassNotValid'), 0)
+		Mobile.closeApplication()
 	}
 }

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth2.apk', true)
+Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth.apk', true)
 
 Mobile.tap(findTestObject('Login/btnLewati'), 0)
 

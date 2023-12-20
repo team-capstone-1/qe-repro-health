@@ -49,7 +49,7 @@ class registerSteps {
 	 */
 	@Given("open Reprohealth application")
 	def openReprohealthApp() {
-		Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth2.apk', true)
+		Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\ReproHealth.apk', true)
 	}
 
 	@And("click the skip button")
@@ -100,7 +100,7 @@ class registerSteps {
 		Mobile.verifyElementVisible(findTestObject('SignUp/msgSuccessSignUp'), 0)
 	}
 
-	@When("click sign up button")
+	@When("click sign up button1")
 	def clickSignUpButton1() {
 		Mobile.tap(findTestObject('Object Repository/SignUp/btnSignUp'), 0)
 	}
@@ -174,7 +174,7 @@ class registerSteps {
 		Mobile.setText(findTestObject('SignUp/fieldPasswordOnSignUp'), '', 0)
 		Mobile.hideKeyboard()
 	}
-	
+
 	@And("input empty confirm password")
 	def inputEmptyConfirmPassword() {
 		Mobile.tap(findTestObject('Object Repository/SignUp/fieldPassConfirmOnSignUp'), 0)
@@ -199,27 +199,30 @@ class registerSteps {
 	@Then("shows an alert on name")
 	def showsAlertOnName() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/warningNameOnSignUp'), 0)
+		Mobile.closeApplication()
 	}
 
 	@Then("shows an alert on email")
 	def showsAlertOnEmail() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailOnSignUp'), 0)
+		Mobile.closeApplication()
 	}
 
 	@Then("shows an alert that the email is existing")
 	def showsAlertThatEmailIsExisting() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/warningEmailExisting'), 0)
+		Mobile.closeApplication()
 	}
 
 	@Then("shows an alert on password")
 	def showsAlertOnPassword() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/warningPasswordOnSignUp'), 0)
+		Mobile.closeApplication()
 	}
 
 	@Then("shows an alert on confim password")
 	def showsAlertOnConfimPassword() {
 		Mobile.verifyElementVisible(findTestObject('SignUp/warningConfirmPasswordOnSignUp'), 0)
+		Mobile.closeApplication()
 	}
-
-
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>n - add family member profiles with empty body weight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db4aacb8-2294-44bc-a394-bd452268f056</testCaseGuid>
+</TestCaseEntity>

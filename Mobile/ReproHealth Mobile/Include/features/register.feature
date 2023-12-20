@@ -36,7 +36,7 @@ Feature: Register
 
   Scenario: Registration with Blank Fields
 and empty confirm password
-    When click sign up button
+    When click sign up button1
     Then shows an alert on name
 
   Scenario: Registration with the symbol in the first letter of the name

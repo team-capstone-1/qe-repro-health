@@ -20,10 +20,10 @@
 Feature: Logout
   I want to use this template for my feature file
 
-	Background: 
-		Given open Reprohealth application
-    And click the skip button
-		And click the sign up button option
+  Background: 
+    Given open the Reprohealth application
+    And click skip button
+    And click the login button option
     And login with registered account
     
   @tag1
@@ -33,7 +33,7 @@ Feature: Logout
 		And click yes
 		Then verify successful logout and go to login page
 
-  Scenario: Failed Logout
+  Scenario: Cancel Logout
 		When click the bottom navbar Profile for logout
 		And click Logout
 		And click no

@@ -41,13 +41,13 @@ Feature: Login
     When input empty field email & valid password
     And click the remember me checkbox
     And click login button
-    Then shows an alert that email or password invalid
+    Then shows alert on email
 
   Scenario: Login with empty field password
     When input valid email & empty field password
     And click the remember me checkbox
     And click login button
-    Then shows an alert that email or password invalid
+    Then shows alert on password
 
   Scenario: Valid Login with Uppercase Letters in Email
     When input valid email with uppercase letters & valid password
@@ -59,7 +59,7 @@ Feature: Login
     When input space on email & valid password
     And click the remember me checkbox
     And click login button
-    Then shows an alert that email or password invalid
+    Then shows alert on email
 
   Scenario: Login with only filled space on Password
     When input valid email & space on password
@@ -71,7 +71,50 @@ Feature: Login
     When input invalid email format & valid password
     And click the remember me checkbox
     And click login button
-    Then shows an alert that email or password invalid
+    Then shows alert on email
+    
+    
+    
+    
+  Scenario: Change the password to an unregistered email
+    When Click Lupa kata Sandi
+    And Input Email with an unregistered email
+    Then warning email not registered
+
+  Scenario: Change password but not filling the email
+    When Click Lupa kata Sandi
+    And Not filling the email
+    Then warning on email field
+    
+  Scenario: Change password with only filled space on email
+    When Click Lupa kata Sandi
+    And Input Email only with space on email
+    Then warning on email field
+    
+  Scenario: Change password with invalid email format
+    When Click Lupa kata Sandi
+    And Input Email with invalid format
+    Then warning on email field
+    
+  Scenario: Change password with empty OTP
+    When Click Lupa kata Sandi
+    And Input valid Email
+    And Not fill OTP
+    Then warning on OTP
+    
+  Scenario: Change password but input the wrong OTP
+    When Click Lupa kata Sandi
+    And Input valid Email
+    And input wrong OTP
+    Then warning on OTP
+    
+  Scenario: Resend the verification code
+    When Click Lupa kata Sandi
+    And Input valid Email
+    And click resend button
+    Then success resend OTP to email
+    
+
     
     
     
